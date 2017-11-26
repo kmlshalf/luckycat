@@ -4,6 +4,7 @@ body {
 	font-family: "Arvo";
 	color: #141414;
 	background-attachment: fixed;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZvieIcIaGj_ObpqvzdQ37LT3Ud6xkncxUkQWamXSCkhL68Ee7");
 }
 p {
 	line-height: 0%;
@@ -229,10 +230,18 @@ p {
 }
 
 .headertext {
-	margin-left: 50px;
+	margin-left: 20px;
 	display: inline-block;
 	position:fixed;
 	margin-top: 120px;
+	background-color: white;
+}
+
+.aboutcontent {
+	background-color: white;
+	width: 550px;
+	height: 700px;
+	margin-left: 50px;
 }
 
 #header {
@@ -251,5 +260,5 @@ p {
 	line-height: 200%;
 	width: 500px;
 	margin-top: 260px;
-	padding-left: 80px;
+	padding-left: 50px;
 }
