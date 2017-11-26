@@ -153,7 +153,7 @@ p {
 	margin-top: 40px;
 	/*margin-left: 350px;*/
 	z-index: 5;
-	text-shadow: 3px 3px 3px #7A5E5E;
+	text-shadow: 2px 2px 2px #7A5E5E;
 }
 
 #word>a {
@@ -197,7 +197,7 @@ p {
 #catchsub {
 	font-size: 40px;
 	color: white;
-	text-shadow: 1px 1px 3px #7A5E5E;
+	text-shadow: 1px 2px 3px #7A5E5E;*/
 }
 
 #steps {
