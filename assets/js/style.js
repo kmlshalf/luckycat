@@ -12,9 +12,9 @@ $(document).ready(function(){
 	let i = 0;
 
 	$("#cat").click(function() { //jQuery Function Number 1
-		document.getElementById("cat").src="../assets/img/luckycatgif.gif";//make cat move
+		document.getElementById("cat").src="assets/img/luckycatgif.gif";//make cat move
 		setTimeout(function() {
-			document.getElementById("cat").src="../assets/img/luckycatgif.png";}, 2600);
+			document.getElementById("cat").src="assets/img/luckycatgif.png";}, 2600);
 		if (i>=14) {
 			i = -1;
 		}
