@@ -26,7 +26,7 @@ $(document).ready(function(){
 			$("#word").html(WORDS[i]);//4
 			//animateIn("#word");
 			$("#website").attr("href", WEBSITES[i]); //jQuery Function Number 5
-			}, 1500); 
+			}, 1600); 
 		i++;
 	});
 
@@ -48,5 +48,6 @@ $(document).ready(function(){
     	}, function(){
     	$(this).css("text-decoration", "none");
 	});
+
 
 })
