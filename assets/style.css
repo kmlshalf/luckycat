@@ -1,0 +1,211 @@
+/*general*/
+body {
+	margin:0;
+	font-family: "Arvo";
+	color: #141414;
+	background-attachment: fixed;
+}
+p {
+	line-height: 0%;
+}
+
+
+
+/*navbar*/
+#navbar {
+	position: fixed;
+	height: 70px;
+	width:100%;
+	border-bottom-color: #141414;
+	border-bottom-width: 1px;
+	border-bottom-style: solid; 
+	-webkit-box-shadow: 0px 1px 5px 2px #ccc;
+}
+
+#navcontent {
+	position: relative;
+	margin: 0 auto;
+	padding: 8px 0px;
+	min-width:1360px;
+}
+.nav-item {
+	display: inline-block;
+	float: left;
+	padding-left: 60px;
+	font-size: 30px;
+}
+
+.menu {
+	display: inline-block;
+	float: right;
+	padding-left: 60px;
+	font-size: 30px;
+}
+
+.menu:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.nav-item>a {
+	text-decoration: none;
+	color: #141414;
+}
+
+#title {
+	display: inline-block;
+}
+
+#main-title {
+	margin-left: -50px;
+	font-size: 45px;
+}
+
+#main-title:hover {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#menu-items {
+	display: inline-block;
+	float: right;
+	margin-right: 60px;
+	margin-top: 10px;
+}
+
+#menu-items>a {
+	text-decoration: none;
+	color: #141414;
+}
+
+
+#title>a {
+	text-decoration: none;
+	color: #141414;
+}
+
+#main-title>a {
+	text-decoration: none;
+	color: #141414;
+}
+
+#icon {
+	width: 50px;
+	margin-left: -50px;
+	margin-top: 2px;
+	z-index: 0;
+}
+
+#subtext {
+	font-size: 12px;
+	margin-left: -40px;
+	margin-top: 5px;
+}
+
+
+
+
+/*index*/
+#cat {
+	width: 600px;
+	z-index: 50;
+	overflow: hidden;
+	position:fixed;
+	top: 200px;
+	left: 440px;
+}
+
+#cat:hover {
+	cursor: pointer;
+}
+
+.background-circle {
+	width: 900px;
+	height: 800px;
+	background-color: #FFC8C8;
+	border-radius: 1600px;
+	overflow: hidden;
+	position: fixed;
+	top: 100px;
+	left: 300px;
+	-webkit-box-shadow: inset 0 0 10px #7A5E5E;
+}
+.content {
+	display: inline-block;
+	margin: 0 auto;
+	transform: translateX(50%);
+}
+
+#word {
+	color: white;
+	font-size: 60px;
+	width: 500px;
+	height: 100px;
+	/*transform: translateX(180%);*/
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 40px;
+	/*margin-left: 350px;*/
+	z-index: 5;
+	text-shadow: 3px 3px 3px #7A5E5E;
+}
+
+#word>a {
+	text-decoration: none;
+	color: white;
+}
+
+.background-circle>a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+/*howtoplay*/
+
+
+
+/*about*/
+.circle-background {
+	background-color: #FFECC8;
+	position: fixed;
+	height: 600px;
+	width: 600px;
+	border-radius: 12000px;
+	display: inline-block;
+	left: 800px;
+	margin-top: -400px;
+	-webkit-box-shadow: inset 0 0 10px #7A5E5E
+}
+
+#selfimg {
+	height: 500px;
+	margin-left: 200px;
+	margin-top: 100px;
+}
+
+.headertext {
+	margin-left: 50px;
+	display: inline-block;
+	position:fixed;
+	margin-top: 100px;
+}
+
+#header {
+	font-size: 60px;
+}
+
+#headersub {
+	font-size: 40px;
+	padding-left: 20px;
+}
+
+#context {
+	display: inline-block;
+	line-height: 150%;
+	width: 400px;
+	margin-top: 250px;
+	padding-left: 80px;
+}
