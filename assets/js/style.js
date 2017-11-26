@@ -6,16 +6,16 @@ $(document).ready(function(){
 	"https://www.homestyler.com/", "http://www.windowsofnewyork.com/", "https://www.youtube.com/watch?v=MQ5ziNOtoMU", "https://littlealchemy.com/",
 	"http://kimcartoon.me/Cartoon/World-of-Tomorrow/Movie", "http://mentalfloss.com/amazingfactgenerator/", "https://line-of-action.com/",
 	"https://mynoise.net/NoiseMachines/rainNoiseGenerator.php", "https://www.youtube.com/watch?v=YeAjOimUHOU", "https://www.cryptokitties.co/",
-	"https://www.google.com/earth/", "http://www.mangahere.co/manga/sunny_matsumoto_taiyou/c001/2.html"];
+	"https://www.google.com/earth/", "http://www.mangahere.co/manga/sunny_matsumoto_taiyou/c001/2.html", "https://www.youtube.com/watch?v=WEK4hw7hMgI"];
 	//website order: stress, procrastinate, listen, personalize, design, watch, create, philosophize, learn, draw, sleep, cry, invest, explore
-	const WORDS = ["stress", "procrastinate", "listen", "personalize", "design", "watch", "create", "philosophize", "learn", "draw", "sleep", "cry", "invest", "explore", "read"];
+	const WORDS = ["stress", "procrastinate", "listen", "personalize", "design", "watch", "create", "philosophize", "learn", "draw", "sleep", "cry", "invest", "explore", "read", "relax"];
 	let i = 0;
 
 	$("#cat").click(function() { //jQuery Function Number 1
 		document.getElementById("cat").src="assets/img/luckycatgif.gif";//make cat move
 		setTimeout(function() {
 			document.getElementById("cat").src="assets/img/luckycatgif.png";}, 2600);
-		if (i>=14) {
+		if (i>=15) {
 			i = -1;
 		}
 		setTimeout(function() {
